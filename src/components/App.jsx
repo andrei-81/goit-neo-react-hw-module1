@@ -6,7 +6,6 @@ import FriendList from "./FriendList/FriendList.jsx";
 import TransactionHistory from "./TransactionHistory/TransactionHistory.jsx";
 
 const App = () => {
-    console.log(userData.location)
     return (
       <>
         <Profile
