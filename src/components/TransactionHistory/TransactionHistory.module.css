@@ -1,9 +1,9 @@
 .table {
     width: 600px;
-    margin: 20px auto;
-    border-collapse: collapse;
+    margin: 50px auto;
     background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 .tableHead {
@@ -17,6 +17,8 @@ th {
     text-align: center;
     padding: 15px;
     text-transform: uppercase;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 .tableRow:nth-child(even) {
@@ -28,6 +30,8 @@ td {
     text-align: center;
     color: #666;
     font-size: 16px;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 .tableRow td:first-child {
